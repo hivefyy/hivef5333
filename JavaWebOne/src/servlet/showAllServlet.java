@@ -14,7 +14,7 @@ import java.util.List;
 public class showAllServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html; charset=UTF-8");
+        response.setContentType("text/html; charset=utf-8");
         UserDao ud=new UserDaoImplement();
         List<MyUser> userAll = ud.getUserAll();
         request.setAttribute("all",userAll);

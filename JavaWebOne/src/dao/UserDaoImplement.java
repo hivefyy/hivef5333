@@ -20,7 +20,7 @@ public class UserDaoImplement implements UserDao {
                 e.printStackTrace();
             }
             /*注意查询语句中的单引号双引号*/
-            ResultSet rs = DBconnect.selectSql("select * from student where name='\" + name + \" 'and password='\" + password + \"';");
+            ResultSet rs = DBconnect.selectSql("select * from student where name='" + name + " 'and password='" + password + "';");
                 while (rs.next()) {
                     if (rs.getString("name").equals(name) && rs.getString("password").equals(password)) {
                         flag = true;
@@ -85,7 +85,7 @@ public class UserDaoImplement implements UserDao {
         }catch (Exception e){
             e.printStackTrace();
         }
-        String sql = "delete from student where id='\" + id+\"'";
+        String sql = "delete from student where id='" + id+"'";
         int i = DBconnect.addUpdateDelete(sql);
         if (i>0){
             flag=true;

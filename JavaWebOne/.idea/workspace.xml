@@ -7,26 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de833a64-0556-46b2-bb34-0f6493d0c2e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWebOne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebOne.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/dao/UserDaoImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/dao/UserDaoImplement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/util/DBconnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/util/DBconnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/servlet/showAllServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/servlet/showAllServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/showAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/showAll.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/UserDaoImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDaoImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/DBconnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBconnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/dao/UserDaoImplement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/entity/MyUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/deleteServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/loginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/registerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/showAllServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/updateServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/util/DBconnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/showAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/showAllServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/showAll.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/showAll.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/success.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/apache-tomcat-8.5.57-windows-x64/apache-tomcat-8.5.57/lib/jsp-api.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,7 +65,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,6 +81,7 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.57">
     <configuration name="Tomcat 8.5.57" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <deployment>
         <artifact name="JavaWebOne:war exploded">
           <settings>
@@ -147,6 +144,11 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,6 +223,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.57" />
+      <item itemvalue="Tomcat Server.login.jsp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.login.jsp" />
@@ -237,7 +243,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598672409404</updated>
-      <workItem from="1598672414123" duration="19513000" />
+      <workItem from="1598672414123" duration="21151000" />
+      <workItem from="1598713086162" duration="257000" />
+      <workItem from="1598713372265" duration="228000" />
+      <workItem from="1598713649477" duration="2508000" />
+      <workItem from="1598716180649" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="测试上传">
       <created>1598698801700</created>
@@ -246,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598698801700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改数据库信息">
+      <created>1598707731672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598707731672</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +299,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -290,6 +309,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试上传" />
+    <MESSAGE value="修改数据库信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改数据库信息" />
   </component>
 </project>

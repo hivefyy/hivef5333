@@ -22,7 +22,7 @@
     
     <servlet>
         <servlet-name>registerServlet</servlet-name>
-        <servlet-class>com.servlet.registerServlet</servlet-class>
+        <servlet-class>servlet.registerServlet</servlet-class>
     </servlet>
     
     <servlet>
@@ -32,7 +32,7 @@
 
     <servlet>
         <servlet-name>deleteServlet</servlet-name>
-        <servlet-class>com.servlet.deleteServlet</servlet-class>
+        <servlet-class>servlet.deleteServlet</servlet-class>
     </servlet>
   
     <servlet>
