@@ -3,9 +3,9 @@ package util;
 import java.sql.*;
 
 public class DBconnect {
-    static String url="jdbc:mysql://localhost:3306/DataTest?useSSL=false";
+    static String url="jdbc:mysql://localhost:3306/mysql?useSSL=false";
     static String user="root";
-    static String pw="password";
+    static String pw="root";
     static Connection conn=null;
     static PreparedStatement ps=null;
     static ResultSet rs=null;

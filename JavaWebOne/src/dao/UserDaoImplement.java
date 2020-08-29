@@ -20,11 +20,12 @@ public class UserDaoImplement implements UserDao {
                 e.printStackTrace();
             }
             /*注意查询语句中的单引号双引号*/
-            ResultSet rs=DBconnect.selectSql("select * from student where name='\" + name + \" 'and password='\" + password + \"';");
-            while (rs.next()){
-                if (rs.getString("name").equals(name)&& rs.getString("password").equals(password)){
-                    flag = true;
-                }
+            ResultSet rs = DBconnect.selectSql("select * from student where name='\" + name + \" 'and password='\" + password + \"';");
+                while (rs.next()) {
+                    if (rs.getString("name").equals(name) && rs.getString("password").equals(password)) {
+                        flag = true;
+                    }
+
             }
             DBconnect.closeConn();
         }catch (SQLException e){

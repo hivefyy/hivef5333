@@ -6,7 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de833a64-0556-46b2-bb34-0f6493d0c2e3" name="Default Changelist" comment="" />
+    <list default="true" id="de833a64-0556-46b2-bb34-0f6493d0c2e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWebOne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebOne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/dao/UserDaoImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/dao/UserDaoImplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/util/DBconnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/WEB-INF/classes/util/DBconnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebOne_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/UserDaoImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDaoImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DBconnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBconnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/dao/UserDaoImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/entity/MyUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/deleteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/loginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/registerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/showAllServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet/updateServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/util/DBconnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +59,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../工具包/mysql-connector-java-5.1.48-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -62,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.login.jsp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.57">
     <configuration name="Tomcat 8.5.57" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="JavaWebOne:war exploded">
@@ -71,12 +92,62 @@
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_57_JavaWebOne" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8258" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -86,13 +157,7 @@
     </configuration>
     <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
-      <deployment>
-        <artifact name="JavaWebOne:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/JavaWebOne_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="login_jsp_JavaWebOne" />
       </server-settings>
@@ -101,6 +166,39 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8246" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -139,8 +237,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598672409404</updated>
-      <workItem from="1598672414123" duration="13401000" />
+      <workItem from="1598672414123" duration="19513000" />
     </task>
+    <task id="LOCAL-00001" summary="测试上传">
+      <created>1598698801700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598698801700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +255,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:H:/workSpace/JavaWebOne" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -156,5 +287,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试上传" />
   </component>
 </project>
