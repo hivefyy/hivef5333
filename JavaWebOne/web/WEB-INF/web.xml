@@ -68,4 +68,13 @@
     <welcome-file-list><!--默认首页地址-->
         <welcome-file>login.jsp</welcome-file>
     </welcome-file-list>
+
+    <jsp-config>
+        <taglib>
+            <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+            <taglib-location>/WEB-INF/c.tld</taglib-location>
+        </taglib>
+
+    </jsp-config>
 </web-app>
+
