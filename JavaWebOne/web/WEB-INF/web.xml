@@ -7,7 +7,7 @@
 
     <filter><!--过滤配置-->
         <filter-name>EncodingFilter</filter-name>
-        <filter-class>filter.EncodingFilter</filter-class><!--全路径 从根包开始一直到类名-->
+        <filter-class>com.filter.EncodingFilter</filter-class><!--全路径 从根包开始一直到类名-->
     </filter>
 
     <filter-mapping>
@@ -17,27 +17,27 @@
 
     <servlet><!--servlet类路径配置-->
         <servlet-name>loginServlet</servlet-name>
-        <servlet-class>servlet.loginServlet</servlet-class>
+        <servlet-class>com.servlet.loginServlet</servlet-class>
     </servlet>
     
     <servlet>
         <servlet-name>registerServlet</servlet-name>
-        <servlet-class>servlet.registerServlet</servlet-class>
+        <servlet-class>com.servlet.registerServlet</servlet-class>
     </servlet>
     
     <servlet>
         <servlet-name>showAllServlet</servlet-name>
-        <servlet-class>servlet.showAllServlet</servlet-class>
+        <servlet-class>com.servlet.showAllServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>deleteServlet</servlet-name>
-        <servlet-class>servlet.deleteServlet</servlet-class>
+        <servlet-class>com.servlet.deleteServlet</servlet-class>
     </servlet>
   
     <servlet>
         <servlet-name>updateServlet</servlet-name>
-        <servlet-class>servlet.updateServlet</servlet-class>
+        <servlet-class>com.servlet.updateServlet</servlet-class>
     </servlet>
     
     <servlet-mapping><!--servlet类映射配置-->
