@@ -1,0 +1,5 @@
+这个项目是安装视频里面学的，
+
+通过springboot 自带的thymeleaf静态模板引擎来实现前后端的功能
+
+其中在前端的html中引用了thymeleaf，通过<th:text “msg“> 获取后端的参数
