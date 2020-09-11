@@ -1,6 +1,6 @@
 var tool={
     success: 200,
-    baseUrl: "http://localhost",
+    baseUrl: "http://localhost:9011",
 
     /*request 请求*/
     request: function (url, type, params, fun) {
@@ -17,7 +17,7 @@ var tool={
             success: function (data) {
                 var status = data.status;
                 if (_this.success == status){
-                    fun(data.data);
+                    fun(data.obj);
                 }else {
                     window.alert(data.msg);
                     var code = data.code;
