@@ -10,6 +10,7 @@ var tool={
             type: type,
             dataType: 'json',
             data: params,
+
             error: function (err) {
                 console.log(err);
                 window.alert("未知异常");

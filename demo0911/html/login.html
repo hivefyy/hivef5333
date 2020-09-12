@@ -16,14 +16,17 @@
                 var userName = $("#username").val();
                 var passWord = $("#password").val();
                 var params = {
-                    userName,
-                    passWord
+                    "username":userName,
+                    "password":passWord
                 };
                 tool.request("/login","post",params,function (obj) {
                     window.alert("登录成功:"+obj);
+                    window.location.href="index.html";
                 });
             });
         })
+
+
     </script>
     <script src="js/tool.js"></script>
 
