@@ -16,7 +16,8 @@
                     "orderid" : orderid
                 };
                 tool.request2("/findid", "post",params,function (data) {
-                    window.alert("查询成功:"+data);
+                    console.log(data);
+                    window.alert("查询成功:"+JSON.stringify(data));
                 })
             });
         })

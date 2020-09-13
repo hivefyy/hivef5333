@@ -8,5 +8,5 @@ import java.util.List;
 public interface UserService {
     List<User> findAll();
     User userLogin(User user);
-    List<User> userFindId(Integer orderid);
+    User userFindId(Integer id);
 }

@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> userFindId(Integer orderid) {
+    public User userFindId(Integer orderid) {
         return userMapper.userFindId(orderid);
     }
 

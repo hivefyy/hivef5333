@@ -12,5 +12,5 @@ import java.util.List;
 public interface UserMapper {
     List<User> findAll();
     User userLogin(@Param("username") String username);
-    List<User> userFindId(@Param("orderid") Integer orderid);
+    User userFindId(@Param("orderid") Integer orderid);
 }

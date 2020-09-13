@@ -18,15 +18,14 @@ public class LoginController {
     @Autowired
     UserService userService;
 
-    BaseResponse response =new BaseResponse();
 
     @RequestMapping("/login")
    public BaseResponse login(User user){
-
+        BaseResponse response =new BaseResponse();
         if (userService.userLogin(user).getPassword().equals(user.getPassword())) {
             response.setStatus(200);
             response.setMsg("登录成功");
-            response.setObj("1234566");
+            response.setData("1234566");
             return  response;
         }else {
             response.setStatus(300);
@@ -40,11 +39,12 @@ public class LoginController {
      * 通过id来查询用户的相关信息
      */
     @RequestMapping("/findid")
-    public List<User> findid(Integer orderid){
-
-        System.out.println(userService.userFindId(orderid));
-
-        return  userService.userFindId(orderid);
+    public BaseResponse findid(Integer orderid){
+        User user = userService.userFindId(orderid);
+        BaseResponse response =new BaseResponse();
+        response.setStatus(200);
+        response.setData(user);
+        return  response;
     }
 
 
@@ -54,12 +54,12 @@ public class LoginController {
         if("admin".equals(username) && "123456".equals(password)){
             response.setStatus(200);
             response.setMsg("登录成功");
-            response.setObj("1234566");
+            response.setData("1234566");
             return  response;
         }
         response.setStatus(300);
         response.setMsg("账号密码错误");
-        response.setObj("1234566");
+        response.setData("1234566");
         return  response;
     }
 }

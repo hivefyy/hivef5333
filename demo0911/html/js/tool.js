@@ -45,9 +45,8 @@ var tool={
                 data: params,
 
          success: function(data) {
-                fun(data)
-
-            },
+                fun(data.data)
+         },
 
         }
 
