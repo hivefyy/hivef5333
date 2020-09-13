@@ -1,5 +1,6 @@
 package com.example.demo0911.service.impl;
 
+import com.example.demo0911.controller.BaseResponse;
 import com.example.demo0911.entity.User;
 import com.example.demo0911.mapper.UserMapper;
 import com.example.demo0911.service.UserService;
@@ -29,4 +30,10 @@ public class UserServiceImpl implements UserService {
 
         return newuser;
     }
+
+    @Override
+    public List<User> userFindId(Integer orderid) {
+        return userMapper.userFindId(orderid);
+    }
+
 }

@@ -15,4 +15,10 @@
         <include refid="QUERY_COLUMN_LIST"/>
         FROM user where username = #{username}
     </select>
+
+    <select id="userFindId" resultType="com.example.demo0911.entity.User">
+        select
+        <include refid="QUERY_COLUMN_LIST"/>
+        from user where id = #{orderid}
+    </select>
 </mapper>

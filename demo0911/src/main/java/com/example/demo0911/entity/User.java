@@ -12,7 +12,7 @@ import java.io.Serializable;
 @ToString
 @Data
 public class User implements Serializable {
-    private Long id;
+    private int id;
     private String username;
     private String password;
 

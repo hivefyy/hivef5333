@@ -4,10 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zhuye</title>
+    <title>主页</title>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
     <script src="js/tool.js" ></script>
-    <title>zhuye</title>
+    <title>主页</title>
+    <script type="text/javascript">
+        $(function () {
+            $("#bottom-pane").click(function () {
+                var orderid = $("#orderid").val();
+                var params ={
+                    "orderid" : orderid
+                };
+                tool.request2("/findid", "post",params,function (data) {
+                    window.alert("查询成功:"+data);
+                })
+            });
+        })
+
+    </script>
 
 
 
@@ -16,6 +30,13 @@
     <div>
        <h1>主页</h1>
     </div>
+    请输入订单号：
+   <input id="orderid" type="text">
+   <input id="bottom-pane" type="button"  value="开始">
+<div>
+    <table> </table>
+</div>
+
 
 </body>
 

@@ -19,6 +19,7 @@ var tool={
                 var status = data.status;
                 if (_this.success == status){
                     fun(data.obj);
+
                 }else {
                     window.alert(data.msg);
                     var code = data.code;
@@ -28,6 +29,28 @@ var tool={
                 }
             }
             }
+
+        );
+
+    },
+
+    /*request 请求*/
+    request2: function (url, type, params,fun) {
+        var _this = this;
+
+        $.ajax({
+                url: this.baseUrl+url,
+                type: type,
+                dataType: 'json',
+                data: params,
+
+         success: function(data) {
+                fun(data)
+
+            },
+
+        }
+
 
         );
 
