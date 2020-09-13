@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * @author hivef
+ */
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
@@ -17,5 +20,13 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> findAll() {
         return userMapper.findAll();
+    }
+
+    @Override
+    public User userLogin(User user) {
+
+       User newuser = userMapper.userLogin(user.getUsername());
+
+        return newuser;
     }
 }
