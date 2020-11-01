@@ -58,7 +58,7 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.1.0</version>
+            <version>2.0.0</version>
         </dependency>
         <!-- 支持通过JDBC连才妾数据库 -->
         <dependency>

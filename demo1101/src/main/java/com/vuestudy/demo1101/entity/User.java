@@ -2,8 +2,6 @@ package com.vuestudy.demo1101.entity;
 
 import lombok.*;
 
-import java.util.StringTokenizer;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
