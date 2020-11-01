@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Nov 01 13:20:21 GMT+08:00 2020
+@default-CN-http\://maven.oschina.net/content/groups/public/.lastUpdated=1604207824765
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1604208021663
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:2.3.5.RELEASE from/to CN (http\://maven.oschina.net/content/groups/public/)\: maven.oschina.net
