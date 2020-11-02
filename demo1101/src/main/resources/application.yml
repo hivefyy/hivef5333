@@ -2,4 +2,4 @@ server:
   port: 8443
 spring:
   profiles:
-    active: company
+    active: home

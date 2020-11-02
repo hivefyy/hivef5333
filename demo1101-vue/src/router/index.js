@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Login from "../components/Login";
 import Appindex from "../components/home/Appindex";
+import Register from "../components/Register";
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/index',
       name: 'AppIndex',
       component: Appindex
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register
     }
 
   ]
