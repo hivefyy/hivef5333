@@ -13,11 +13,18 @@ public class RegisterServiceImpl implements RegisterService {
     @Autowired
     AddMapper addMapper;
 
+    @Autowired
+    UserMapper userMapper;
+
     @Override
-    public void register(User user) {
+    public Boolean register(User user) {
 
-       addMapper.adduser(user.getUsername(),user.getPassword());
-
-
+        User olduser = userMapper.userLogin(user.getUsername());
+        if (olduser !=null){
+            return false;
+        }else {
+            addMapper.adduser(user);
+            return true;
+        }
     }
 }

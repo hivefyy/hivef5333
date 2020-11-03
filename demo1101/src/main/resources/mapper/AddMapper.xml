@@ -3,10 +3,16 @@
 <mapper namespace="com.vuestudy.demo1101.dao.AddMapper">
 
 <!--   下面的代码把useGeneratedKeys="true" keyProperty="id"删除了，不能获取到递增的id-->
-   <insert id="adduser" parameterType="com.vuestudy.demo1101.entity.User"  >
+    <!--第一种@param传实例参数的实现方式-->
+   <insert id="adduser"   useGeneratedKeys="true" keyProperty="id">
+      INSERT INTO user(username,password)
+      VALUES (#{user.username},#{user.password})
+   </insert>
+
+    <!--第二种不适用@param 传实例参数实现方式-->
+    <insert id="adduser1" parameterType="com.vuestudy.demo1101.entity.User"  useGeneratedKeys="true" keyProperty="id">
       INSERT INTO user(username,password)
       VALUES (#{username},#{password})
    </insert>
-
 
 </mapper>

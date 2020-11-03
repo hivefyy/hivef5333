@@ -15,7 +15,12 @@ public class RegisterController {
     @PostMapping("/api/register")
     @ResponseBody
     public BaseResponse register(@RequestBody User user){
-        registerService.register(user);
-        return new BaseResponse(201);
+
+        if (!registerService.register(user)){
+            return  new BaseResponse(202);
+        }else {
+            return new BaseResponse(201);
+        }
+
     }
 }

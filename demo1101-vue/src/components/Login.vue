@@ -31,7 +31,11 @@
                     })
                     .then(successResponse => {
                         if (successResponse.data.code === 200) {
-                            this.$router.replace({path: '/index'})
+                            this.$message('登录成功');
+                            this.$router.replace({path: '/userinfo'})
+                        }
+                        else {
+                            this.$message('登录失败，账号或密码错误')
                         }
                     })
                     .catch(failResponse => {

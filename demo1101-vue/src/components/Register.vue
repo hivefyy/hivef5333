@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script >
 
     export default {
         name: 'Register',
@@ -29,8 +29,14 @@
                         password: this.registerForm.password
                     })
                     .then(successResponse => {
-                        if (successResponse.data.code === 200) {
-                            this.$router.replace({path: '/index'})
+                        if (successResponse.data.code === 201) {
+                           this.$message('注册成功');
+                            this.$router.replace({path: '/login'})
+
+                        }
+                        else{
+                            this.$message('用户信息已存在')
+                            console.log('bbb')
                         }
                     })
                     .catch(failResponse => {
