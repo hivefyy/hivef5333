@@ -59,7 +59,7 @@
                     })
                     .then(successResponse => {
                         if (successResponse.data.code===303){
-                            this.reload()
+                            location.reload()
                         }
                     })
                     .catch(failResponse => {
